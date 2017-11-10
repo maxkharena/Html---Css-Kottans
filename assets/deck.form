@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   <form action="someScript" method="post">
+        <input type="email" name="email" id="email">
+        <input type="password" name="password" id="password">
+        <input type="number" name="number" id="number">
+        <label for="check">Check</label>
+        <input type="checkbox" name="check" id="check">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

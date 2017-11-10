@@ -1,0 +1,9 @@
+.flex-container{
+    display:flex; /*activate power*/
+    
+    flex-wrap: wrap;
+    /*wrap-reverse*/
+
+    flex-flow: row wrap;
+    /* combine flex-direction and flex-wrap */
+}

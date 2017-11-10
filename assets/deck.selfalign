@@ -1,0 +1,4 @@
+ul li:last-of-type {
+  align-self: center;  
+  /* flex-start,flex-end,strerch,baseline */ 
+}

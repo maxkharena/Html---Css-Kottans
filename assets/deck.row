@@ -1,0 +1,5 @@
+.flex-container{
+    display:flex; /*activate power*/
+    flex-direction: column;
+    /* column-reverse,row,row-reverse */
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    * {color: blue;} /* 0,0,0,0 */
+    a{color: red !important;} /* 0,0,0,1 */
+    a:hover { background-color: yellow;} /* 0,0,2,0 */
+    #link:hover{background-color: green;} /* 0,1,2,0 */
+    .link{color: tomato;} /* 0,0,1,0 */
+    #link{color: white;} /* 0,1,0,0 */
+    a#link {color:black !important;} /* 0,1,0,1*/
+    </style>
+</head>
+<body>
+                    <!-- 1,0,0,0 -->
+    <a id="link" style="color:pink !important;"  href="#">I`m link</a>
+</body>
+</html>

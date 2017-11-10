@@ -1,0 +1,5 @@
+.flex-container{
+    display:flex; /*activate power*/
+    align-content: space-between;
+    /* flex-start,flex-end,center,stretch, space-around */
+}

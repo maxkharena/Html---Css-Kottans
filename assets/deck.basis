@@ -1,0 +1,4 @@
+ul li:last-of-type {
+    flex-basis:300px; 
+    /* any legal width */
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   <form action="someScript" method="post">
+        <label for="radio">Radio</label>
+        <input type="radio" name="radio" id="radio">   
+        <select name="select" id="select">
+            <option value="someVal">Some value</option>
+            <option value="someOtherVal">Some other value</option>
+        </select>
+        <input type="hidden" name="hidden">
+        <button>Button</button>
+    </form>
+</body>
+</html>

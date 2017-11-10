@@ -1,0 +1,13 @@
+* {color: blue;} /* 0,0,0,0 */
+
+a{color: red } /* 0,0,0,1 */
+
+a:hover {background-color: yellow;} /* 0,0,2,0 */
+    
+#link:hover{background-color: green;} /* 0,1,2,0 */
+
+.link{color: tomato;} /* 0,0,1,0 */
+
+#link{color: white;} /* 0,1,0,0 */
+
+<a href="#" style="color:green;">Some link<a> /* 1,0,0,0 */

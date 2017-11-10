@@ -1,0 +1,4 @@
+ul li:last-of-type {
+  flex: 0 0 500px;
+  /* flex-grow flex-shrink flex-basis */
+}

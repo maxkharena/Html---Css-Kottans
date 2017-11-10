@@ -1,0 +1,18 @@
+
+        <div class="header"> header </div>
+        <div class="nav"> navigation 
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+        </div>
+        <div class="section">
+            <div class="article">
+                <h2> Article header </h2>
+                Article
+            </div>
+            <div class="article">
+                <h2> Article header </h2>
+                Article
+            </div>
+        </div>
+        <div class="aside"> sidebar content </div>
+        <div class="footer"> copyright</div>

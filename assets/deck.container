@@ -1,0 +1,14 @@
+    <div class="wrapper">
+        <ul class="flex-container">
+            <li>
+                <img src="img1.png" alt="img1">
+            </li>
+            <li>
+                <img src="img2.png" alt="img2">
+            </li>
+            <li>
+                <img src="img3.png" alt="img3">
+            </li>
+            ...
+        </ul>
+    </div>
