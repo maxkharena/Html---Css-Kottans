@@ -48,7 +48,7 @@ const images = {
   basis:require("../assets/basis.png"),
   flexguide:require("../assets/flexguide.png"),
   helper:require("../assets/helper.png"),
-  helper:require("../assets/forggy.png"),
+  forggy:require("../assets/forggy.png"),
 
 };
 
@@ -72,10 +72,10 @@ export default class Presentation extends React.Component {
       <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
         <Slide transition={["zoom"]} bgColor="secondary">
           <Heading size={1} fit caps lineHeight={1} textColor="tertiary">
-            Html and Css
+            Html & Css
           </Heading>
           <Text margin="10px 0 0" textColor="white" size={1} fit bold>
-          EASY AND USEFUL
+          EASY & USEFUL
           </Text>
         </Slide>
         <Slide transition={["zoom"]} bgColor="white">
@@ -240,14 +240,14 @@ export default class Presentation extends React.Component {
           <Image src={images.viewport.replace("/", "")}  height="800px" margin="-80px" />
         </Slide>
         <Slide transition={["zoom"]} bgColor="white">
-          <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
+          <Link style="font-size" href="https://whatwg.org/" margin="10px 0 0" textColor="secondary" textSize="4rem" fit bold>
           https://whatwg.org/
-          </Text>
+          </Link>
         </Slide>
         <Slide transition={["zoom"]} bgColor="white">
-          <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
+          <Link  href="https://www.w3.org/" margin="10px 0 0" textColor="secondary" textSize="4rem" fit bold>
           https://www.w3.org/
-          </Text>
+          </Link>
         </Slide>
         <Slide transition={["zoom"]} bgColor="white">
           <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
@@ -329,8 +329,10 @@ export default class Presentation extends React.Component {
           <Image src={images.devtools.replace("/", "")} margin="0px auto 0px" width="1050px" />
         </Slide>
         <Slide transition={["zoom"]} bgColor="white">
-          <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
-          https://www.w3schools.com/css/css_boxmodel.asp
+        <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
+          <Link href="https://www.w3schools.com/css/css_boxmodel.asp" margin="10px 0 0" textColor="secondary" textSize="40px;" fit bold>
+            https://www.w3schools.com/css/css_boxmodel.asp
+          </Link>
           </Text>
         </Slide>
         <Slide transition={["zoom"]} bgColor="white">
@@ -496,7 +498,7 @@ export default class Presentation extends React.Component {
         <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
         FLEXBOX FROGGY навчальна гра 
           </Text>
-          <Image src={images.flexguide.replace("/", "")} margin="0 -65px 0" width="500px" />
+          <Image src={images.forggy.replace("/", "")} margin="0 -65px 0" width="500px" />
         </Slide>
         <Slide transition={["zoom"]} bgColor="white">
           <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
